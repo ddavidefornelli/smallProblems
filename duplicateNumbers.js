@@ -20,5 +20,3 @@ var removeDuplicates = function(nums) {
 };
 
 console.log(removeDuplicates([1, 1, 2, 3, 4, 4, 5]))
-
-

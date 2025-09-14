@@ -14,7 +14,7 @@ var findJudge = function(n, trust) {
     if((n - 1) in score){
         return score.indexOf(n-1)
     } 
-    return -1
+   return -1
 }
 
 console.log(findJudge(2, [[1,2]]))

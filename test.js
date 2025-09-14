@@ -94,3 +94,10 @@ class person {
 
 let davide = new person("davide", "fornelli")
 davide.greet('ciao')
+
+
+let testarr = [1,2,3]
+let modtest = testarr.map(item => item += 2)
+
+console.log(modtest)
+
